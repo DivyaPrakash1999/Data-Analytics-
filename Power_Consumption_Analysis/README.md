@@ -52,9 +52,6 @@ Regions with Highest Consumption: Some regions showed consistently higher consum
 Top 5 Consumption Regions: The five regions with the highest power usage are focused on in the analysis, providing insights into demand centers.
 Monthly Consumption Patterns: Clear peaks in certain months indicate seasonal trends in power usage.
 Demographic Preferences: Insights into demographics showed variations in usage, helping identify unique consumption behaviors.
-Installation & Usage
-Clone the Repository:
-
 Database Setup:
 
 Ensure MySQL is installed.
@@ -67,7 +64,21 @@ View Power BI Dashboard:
 
 Open the Power BI file Power_Consumption_Report.pbix to view and interact with the dashboard.
 Folder Structure
-
+Power-Consumption-India-2019-2020/
+├── analysed data/
+│   ├── Monthly_Power_Consumption.csv
+│   ├── Total_Power_Consumption.csv
+│   ├── Avg_Daily_Power_Consumption.csv
+│   ├── Top_5_Regions_Consumption.csv
+├── scripts/
+│   ├── dataset_tk.csv
+│   ├── long_data_.csv
+├── scripts/
+│   ├── data_cleaning.py
+│   ├── data_analysis.sql
+├── visuals/
+│   ├──analysis (Power BI).pbix
+├── README.md
 Future Work
 Expand Time Frame: Include additional years for a more comprehensive analysis.
 Machine Learning Models: Build models to forecast future power consumption patterns.
