@@ -55,10 +55,6 @@ Demographic Preferences: Insights into demographics showed variations in usage, 
 Installation & Usage
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/Power-Consumption-India-2019-2020.git
-cd Power-Consumption-India-2019-2020
 Database Setup:
 
 Ensure MySQL is installed.
